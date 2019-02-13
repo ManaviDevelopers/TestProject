@@ -1,3 +1,6 @@
+/*
+ * 
+ */
 package mobileTest;
 
 import java.net.MalformedURLException;
@@ -15,8 +18,15 @@ import io.appium.java_client.MobileBy;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class AndroidRobotDemo.
+ */
 public class AndroidRobotDemo {
 
+	/**
+	 * Emulator.
+	 */
 	@Test(enabled = true)
 	public void emulator() {
 		String deviceID = "4cf00ac"; // emulator-5554
@@ -76,6 +86,13 @@ public class AndroidRobotDemo {
 		// driver.findElement(By.id("com.android.vending:id/search_box_text_input")).sendKeys(Keys.ENTER);
 	}
 
+	/**
+	 * Scroll.
+	 *
+	 * @param driver the driver
+	 * @param text the text
+	 * @return the mobile element
+	 */
 	public MobileElement scroll(WebDriver driver, String text) {
 		MobileElement element = (MobileElement) driver.findElement(MobileBy.AndroidUIAutomator(
 				"new UiScrollable(new UiSelector().resourceId(\"com.whatsapp:id/data_view\")).scrollIntoView("
@@ -83,6 +100,9 @@ public class AndroidRobotDemo {
 		return element;
 	}
 
+	/**
+	 * Device.
+	 */
 	@Test(enabled = false)
 	public void device() {
 

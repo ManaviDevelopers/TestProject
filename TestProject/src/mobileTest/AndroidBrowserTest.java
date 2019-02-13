@@ -1,3 +1,6 @@
+/*
+ * 
+ */
 package mobileTest;
 
 import java.net.MalformedURLException;
@@ -13,7 +16,17 @@ import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class AndroidBrowserTest.
+ */
 public class AndroidBrowserTest {
+	
+	/**
+	 * The main method.
+	 *
+	 * @param args the arguments
+	 */
 	public static void main(String[] args) {
 		String deviceID = "emulator-5554"; // emulator-5554
 		// System.setProperty("webdriver.chrome.driver",

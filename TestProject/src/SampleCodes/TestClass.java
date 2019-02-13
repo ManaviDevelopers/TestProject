@@ -1,3 +1,6 @@
+/*
+ * 
+ */
 package SampleCodes;
 
 import java.io.File;
@@ -21,8 +24,15 @@ import ru.yandex.qatools.ashot.AShot;
 import ru.yandex.qatools.ashot.Screenshot;
 import ru.yandex.qatools.ashot.shooting.ShootingStrategies;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class TestClass.
+ */
 public class TestClass {
 
+	/**
+	 * F.
+	 */
 	@Test
 	public void f() {
 

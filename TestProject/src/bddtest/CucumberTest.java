@@ -1,3 +1,6 @@
+/*
+ * 
+ */
 package bddtest;
 
 import java.time.Instant;
@@ -14,8 +17,17 @@ import com.relevantcodes.extentreports.LogStatus;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class CucumberTest.
+ */
 public class CucumberTest {
 
+	/**
+	 * The main method.
+	 *
+	 * @param args the arguments
+	 */
 	public static void main(String[] args) {
 		ExtentReports reports = new ExtentReports("./Report/report.html");
 		ExtentTest test = reports.startTest("This Test");
