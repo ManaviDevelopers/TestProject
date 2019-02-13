@@ -25,7 +25,7 @@ public class NewTest {
 		test.setStartedTime(Date.from(Instant.now()));
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		//driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		driver.get("http://www.google.co.in");
 		System.out.println(driver.getTitle());
 		System.out.println(new Object() {
